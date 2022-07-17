@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/grapherjs/nextjs-grapherjs/compare/v0.0.3...v0.0.4) (2022-07-17)
+
+
+### Bug Fixes
+
+* fix typo in import ([e1c5793](https://github.com/grapherjs/nextjs-grapherjs/commit/e1c57934d06437724063debf413f3ddd5929a80d))
+
 ### [0.0.3](https://github.com/grapherjs/nextjs-grapherjs/compare/v0.0.2...v0.0.3) (2022-07-17)
 
 
