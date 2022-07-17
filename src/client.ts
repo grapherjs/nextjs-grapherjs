@@ -45,6 +45,7 @@ export class Client {
     setResponseData(res);
 
     const requestData = extractRequestData(req);
+    const startTime = process.hrtime();
 
     res.once("finish", () => {
       setImmediate(async () => {
@@ -58,6 +59,9 @@ export class Client {
         };
 
         log.metadata.data = data;
+        const diff = process.hrtime(startTime);
+        const responseTime = (diff[0] * 1e3 + diff[1]) * 1e-6;
+        log.response_time = responseTime;
 
         if (res.locals?.error) {
           log.metadata.error = res.locals.error;
