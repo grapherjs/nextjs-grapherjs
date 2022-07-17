@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/grapherjs/nextjs-grapherjs/compare/v0.0.6...v0.0.7) (2022-07-17)
+
+
+### Features
+
+* add response_time in log func ([2210fdd](https://github.com/grapherjs/nextjs-grapherjs/commit/2210fddfddfb00ac8ce3545f6f51ff30f772656f))
+
 ### [0.0.6](https://github.com/grapherjs/nextjs-grapherjs/compare/v0.0.5...v0.0.6) (2022-07-17)
 
 ### [0.0.5](https://github.com/grapherjs/nextjs-grapherjs/compare/v0.0.4...v0.0.5) (2022-07-17)
