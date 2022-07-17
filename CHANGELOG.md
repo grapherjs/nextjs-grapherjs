@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/grapherjs/nextjs-grapherjs/compare/v0.0.2...v0.0.3) (2022-07-17)
+
+
+### Bug Fixes
+
+* fix withTracingHandler return type (no async) ([1b8de80](https://github.com/grapherjs/nextjs-grapherjs/commit/1b8de80c587f4e3c96f1a725bba04820c35b544a))
+
 ### [0.0.2](https://github.com/grapherjs/nextjs-grapherjs/compare/v0.0.1...v0.0.2) (2022-07-17)
 
 
