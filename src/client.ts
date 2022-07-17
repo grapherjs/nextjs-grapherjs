@@ -1,9 +1,8 @@
 import axios, { AxiosInstance } from "axios";
 import omit from "lodash.omit";
 import pick from "lodash.pick";
-import { ClientOptions, LogOptions, NextApiRequest, NextApiResponse } from "./types";
+import { ClientOptions, Level, LogOptions, NextApiRequest, NextApiResponse } from "./types";
 import { extractErrorObject, extractRequestData, setResponseData } from "./utils";
-import { Level } from "src/types";
 
 export class Client {
   private axiosInstance: AxiosInstance;
