@@ -98,7 +98,7 @@ export class Client {
   async withTracingHandler(
     apiHandler: (req: NextApiRequest, res: NextApiResponse) => Promise<any> | any
   ) {
-    return async (req: NextApiRequest, res: NextApiResponse) => {
+    async (req: NextApiRequest, res: NextApiResponse) => {
       const core = ["ip", "host", "method", "url"];
       const requestData = extractRequestData(req);
       const log: Record<string, any> = {
